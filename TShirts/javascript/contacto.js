@@ -7,7 +7,6 @@ window.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
-    
     function formSend() {
         const myform = document.querySelector("form");
         const inputName = myform.querySelector('#name');
@@ -41,6 +40,7 @@ window.addEventListener("DOMContentLoaded", () => {
       }
     });
 }
+    
 
 navbarActive();
 formSend();
