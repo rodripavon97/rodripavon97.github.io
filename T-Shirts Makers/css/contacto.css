@@ -1,0 +1,74 @@
+#container-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 2%;
+    margin: auto;
+  }
+  #form {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 700px;
+  }
+  
+  #form h1 {
+    color: var(--color-five);
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: var(--color-four);
+  }
+  
+  #form input,
+  #form textarea {
+    border: 1px solid var(--color-two);
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #040f0f;
+    font-size: 16px;
+    color: var(--color-three);
+  }
+  
+  #form input::placeholder {
+    color: var(--color-two);
+  }
+  
+  #form .btn {
+    padding: 15px;
+    background: linear-gradient(45deg, var(--color-six) 0%, var(--color-two) 100%);
+    color: #fcfffc;
+    font-size: 18px;
+    border: 1 px solid var(--color-four);
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+  }
+  
+  #form .btn:hover{
+    background:linear-gradient(45deg, var(--color-two) 0%, var(--color-six) 100%);
+    color: var(--color-five)
+  }
+  /* redes */
+#form .icons a{
+    border: 1px solid var(--color-four);
+    background:#040f0f;
+    color: #2ba84a;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600;
+    width: 36px;
+    margin-inline: 15px;
+  }
+  
+  #form .icons a:hover{
+    background: #2ba84a;
+    color: #040f0f;
+  }
